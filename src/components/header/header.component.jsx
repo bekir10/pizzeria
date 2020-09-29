@@ -5,7 +5,8 @@ import CartIcon from "../cart-icon/cart-icon.component";
 import "./header.styles.scss"
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 import {connect} from "react-redux";
-
+import {selectCartHidden} from "../../redux/cart/cart.selectors"
+import {createStructuredSelector} from "reselect"
 const Header = ({hidden}) => (
     <div className="header">
         <Link to="/" className="logo-cotainer">
@@ -21,16 +22,14 @@ const Header = ({hidden}) => (
 
     {
         hidden ? null :  <CartDropdown></CartDropdown> // ako je hidden true render null a ako nije render cart dropdown
-           
-
-
+  
     }
     
     </div>
 )
 
-const mapStateToProps = ( {cart:{hidden}} ) => ({
-    hidden
+const mapStateToProps = createStructuredSelector ({
+    hidden : selectCartHidden
 })
 
 export default connect(mapStateToProps)(Header);

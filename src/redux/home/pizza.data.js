@@ -2,7 +2,6 @@ const PIZZA_DATA = [
     {
       id: 1,
       title: 'Pizza',
-      routeName: 'Pizzas',
       items: [
         {
           id: 1,
@@ -38,7 +37,6 @@ const PIZZA_DATA = [
     {
       id: 2,
       title: '',
-      routeName: 'Pizzas',
       items: [
         {
           id: 5,
