@@ -6,7 +6,7 @@ import {connect} from "react-redux"
 
 const HomePage = ({collections}) =>(
   
-     <div className="shop-page">
+     <div className="home-page">
 
         {
             collections.map(({id, ...otherCollectionProps}) =>(
