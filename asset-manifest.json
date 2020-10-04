@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pizzeria/static/css/main.24940465.chunk.css",
+    "main.js": "/pizzeria/static/js/main.4ead41c4.chunk.js",
+    "main.js.map": "/pizzeria/static/js/main.4ead41c4.chunk.js.map",
+    "runtime-main.js": "/pizzeria/static/js/runtime-main.ce691bb0.js",
+    "runtime-main.js.map": "/pizzeria/static/js/runtime-main.ce691bb0.js.map",
+    "static/js/2.ad7ad123.chunk.js": "/pizzeria/static/js/2.ad7ad123.chunk.js",
+    "static/js/2.ad7ad123.chunk.js.map": "/pizzeria/static/js/2.ad7ad123.chunk.js.map",
+    "index.html": "/pizzeria/index.html",
+    "precache-manifest.9d3c5ab9bd70d5640eada978086ee7a1.js": "/pizzeria/precache-manifest.9d3c5ab9bd70d5640eada978086ee7a1.js",
+    "service-worker.js": "/pizzeria/service-worker.js",
+    "static/css/main.24940465.chunk.css.map": "/pizzeria/static/css/main.24940465.chunk.css.map",
+    "static/js/2.ad7ad123.chunk.js.LICENSE.txt": "/pizzeria/static/js/2.ad7ad123.chunk.js.LICENSE.txt",
+    "static/media/pizza.400089f0.svg": "/pizzeria/static/media/pizza.400089f0.svg",
+    "static/media/shopping-bag.30f07071.svg": "/pizzeria/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce691bb0.js",
+    "static/js/2.ad7ad123.chunk.js",
+    "static/css/main.24940465.chunk.css",
+    "static/js/main.4ead41c4.chunk.js"
+  ]
+}
